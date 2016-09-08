@@ -7,10 +7,11 @@ import org.uqbar.commons.utils.Observable
 @Observable
 class Tweet {
 	String frase
-	String caracteresDisponibles = "140"
-
+	
+	Integer caracteresDisponibles = 140
+	
 	def void twittear() {
-		caracteresDisponibles = (140 - frase.length).toString();
+		caracteresDisponibles = 140 - (frase.length)
 	}
 /* 
 	def boolean puedeEscribir() {
