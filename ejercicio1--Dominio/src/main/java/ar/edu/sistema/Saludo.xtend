@@ -5,8 +5,8 @@ import org.uqbar.commons.utils.Observable
 @Accessors
 @Observable
 class Saludo {
-	String nombre
-	String apellido
+	String nombre = new String
+	String apellido = new String
 	String saludo
 	
 	def void setApellido(String unApellido) {
