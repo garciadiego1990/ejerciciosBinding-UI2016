@@ -25,7 +25,7 @@ class CalculoWindow extends MainWindow<Calculo> {
 		new NumericField(mainPanel).value <=> "operando2"
 
 		new Button(mainPanel) => [
-			caption = "+"
+			caption = "*"
 			onClick [|modelObject.operar]
 		]
 

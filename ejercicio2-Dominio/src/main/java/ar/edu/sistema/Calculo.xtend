@@ -11,6 +11,6 @@ class Calculo {
 	
 	
 	def void operar(){
-		resultado = operando1 + operando2
+		resultado = operando1 * operando2
 	}
 }
